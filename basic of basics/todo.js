@@ -12,19 +12,23 @@ var addButton = document.getElementById('add')
 addButton.addEventListener('add',addItem)
 
 var removeItem = document.getElementById('remove')
-removeItem.addEventListener('click',removeItem)
+removeItem.addEventListener('click',removeCheckList)
 
 
 
 function addItem(){
-    console.log('add button clicked')
+var input = document.getElementById('input')
+var item = input.value;
+ul = document.getElementById('list')
+var textNode = document.createTextNode(item)
 }
 
 
 
 
-function removeItem(){
-    li = ul.children
+function removeCheckList(event){
+    li = ul.children;
+    console.log(li)
 for (let index = 0; index < li.length; index++) {
     while (li[index] && li[index].children[0].checked) {
         ul.removeChild(li[index])
