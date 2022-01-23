@@ -7,3 +7,7 @@ const student = {
 
 const studentString = JSON.stringify(student)
 console.log(typeof studentString);
+
+const tojason = JSON.parse(studentString);
+console.log(typeof tojason);
+console.log(tojason.age);
