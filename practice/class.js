@@ -22,3 +22,10 @@ console.log(jhon.getFullname());
 
 jhon.editName("Anderson Hood");
 console.log(jhon.getFullname());
+
+class teacher extends User {
+    constructor(firstname,lastname,credit, art ) {
+        super(firstname,lastname,credit);
+        this.art = art
+    }
+}
