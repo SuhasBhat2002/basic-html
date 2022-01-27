@@ -18,5 +18,26 @@ else {
     console.log('incorrect input!!')
 }
 
-const human = user("Maths",9,"Mite")
+var human = new user("Maths",9,"Mite")
 console.log(human);
+
+
+var sam = {
+    name:'my name is sam',
+    age: 10,
+    through_cet: true,
+}
+var marry = {
+    name:'my name is marry',
+    age: 10,
+    through_cet: false,
+}
+let users = new Map()
+
+users.set('sam', sam);
+users.set('marry',marry)
+
+console.log(users);
+console.log(users.values)
+
+console.log(users.keys())
