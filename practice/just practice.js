@@ -41,3 +41,22 @@ console.log(users);
 console.log(users.values)
 
 console.log(users.keys())
+
+const convertRs = (dollars)=>{
+    if (typeof dollars === 'numbers'){
+        return  dollars * 75
+    } else{
+        throw Error('Amount needs to be in numbers')
+    }
+    
+    }
+    
+    try {const myValue = convertRs(10)
+        console.log(myValue)
+        
+    } catch (error) {
+       console.log(error)
+        
+    }
+    
+    console.log('im not working fine if there are errors')
