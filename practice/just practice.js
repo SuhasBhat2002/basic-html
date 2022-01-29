@@ -60,3 +60,6 @@ const convertRs = (dollars)=>{
     }
     
     console.log('im not working fine if there are errors')
+     var authorised = true
+
+     authorised ? console.log("signout button") : console.log("LOGIN");
