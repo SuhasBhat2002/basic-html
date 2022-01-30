@@ -63,3 +63,26 @@ const convertRs = (dollars)=>{
      var authorised = true
 
      authorised ? console.log("signout button") : console.log("LOGIN");
+
+     console.log(Math.random() * 10)
+
+let upper = 25
+let lower = 20
+let myRandom = Math.floor(Math.random()*(upper - lower)) + lower
+console.log(myRandom)
+
+let toDo = {
+    day: 'monday',
+    meetings: 0,
+    meetingDone: 0,
+
+     addMeeting: function(num){
+this.meetings = this.meetings + num
+     },
+     summary: function(){
+         return `you have ${this.meetings} mettings left`
+     },
+}
+
+toDo.addMeeting(5)
+console.log(toDo.summary())
