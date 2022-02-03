@@ -86,3 +86,19 @@ this.meetings = this.meetings + num
 
 toDo.addMeeting(5)
 console.log(toDo.summary())
+
+const toDo3 = [
+    {title:'eat ramen',
+isDone:true,
+}, {title:'eat soba',
+isDone:false,
+}, {title:'fire dance of kagura',
+isDone:false,
+},{title:'breathing practice',
+isDone:true,}
+]
+
+const thingstoDo = toDo3.filter((todo) => todo.isDone === false)
+
+//console.log(thingstoDo)
+thingstoDo.forEach(todo => console.log(todo.title))
