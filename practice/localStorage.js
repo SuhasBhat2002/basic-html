@@ -9,18 +9,14 @@ let mybutton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
 
-function setUserName() {
-    let myName = prompt('Please enter your name.');
-    localStorage.setItem('name', myName);
-    myHeading.textContent = 'Mozilla is cool, ' + myName;
-  }
-  if(!localStorage.getItem('name')) {
-    setUserName();
-  } else {
-    let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Mozilla is cool, ' + storedName;
-  }
-  myButton.onclick = function() {
-    setUserName();
-  }
-  
+  // With a named function
+let myGreeting = setTimeout(function sayHi() {
+  alert('Hello, Mr. Universe!');
+}, 2000);
+
+// With a function defined separately
+function sayHi() {
+  alert('Hello Mr. Universe!');
+}
+
+let myGreeting = setTimeout(sayHi, 2000);
