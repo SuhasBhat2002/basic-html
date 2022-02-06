@@ -21,3 +21,11 @@ switch (user) {
         console.log("trial user");
         break;
 }
+
+var user = "2";
+
+//use == to say equals,use === to check its equal and check its type 
+//matches the value too.
+if (2 === user) {
+    console.log("condition is true")
+}
