@@ -1,17 +1,10 @@
-var mark = {
-    name : 'my name is mark',
-    mass : 85,
-    height : 6,
-}
+const markMass = 78;
+const markHeight = 1.67;
+const johnMass = 60;
+const johnHeight = 1.58;
 
-var sam ={
-    name : 'my name is sam',
-    mass : 70,
-    height :5,
-}
+const BMImark = markMass/markHeight**2;
+const BMIjohn = johnMass/johnHeight**2;
+const whoseHigher = BMImark>BMIjohn;
 
-var bmi = function(name){
-    console.log(mark.mass/mark.height**2)
-}
-
-console.log(bmi)
+console.log(BMImark,BMIjohn,whoseHigher);
