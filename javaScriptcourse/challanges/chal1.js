@@ -13,4 +13,6 @@ if (BMImark<BMIjohn) {
 } 
 if (BMImark>BMIjohn) {
     console.log(`BMI of mark(${BMImark}) is greater than johns(${BMIjohn})`)
+}else{
+    console.log('go shit yourself hacker')
 }
