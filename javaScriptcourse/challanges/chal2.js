@@ -11,3 +11,5 @@ if (averageD<averageK) {
 }else if(averageD===averageK){
 console.log('the match is a draw');
 }
+
+console.log('suprise')
