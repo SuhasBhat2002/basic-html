@@ -10,6 +10,12 @@ switch(day){
         case 'wednesday':
         console.log("just give up on life");
         break;
+         case 'thursday':
+        console.log("stat new life");
+        break;
+        case 'friday':
+            console.log("then sleep");
+            break;
         default:
         console.log("you are already dead in pubg,lol")
 }
