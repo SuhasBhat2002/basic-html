@@ -12,3 +12,11 @@ return juice;
 console.log(fruitProcessor(10,6));
 const drink = fruitProcessor(11,8);
 console.log(drink);
+
+
+function callAge(birthYear){
+    return 2037-birthYear;
+}
+
+const age1 = callAge(1987);
+console.log(age1)
