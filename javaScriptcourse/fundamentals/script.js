@@ -20,3 +20,7 @@ function callAge(birthYear){
 
 const age1 = callAge(1987);
 console.log(age1)
+
+const calcage2 = birthYear=> 1985 - birthYear;
+const age3 = calcage2(1940)
+console.log (age3);
