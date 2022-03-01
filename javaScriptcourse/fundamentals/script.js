@@ -24,3 +24,7 @@ console.log(age1)
 const calcage2 = birthYear=> 1985 - birthYear;
 const age3 = calcage2(1940)
 console.log (age3);
+
+const calcage2 = birthYear=> 1981 - birthYear;
+//lets try
+console.log (calcage2);
