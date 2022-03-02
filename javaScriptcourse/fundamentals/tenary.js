@@ -4,3 +4,4 @@ const drink = age>=18 ? 'wine' : 'juice';
 console.log(drink);
 
 console.log(`i like to drink ${age>=18 ? 'wine' : 'juice'}`);
+console.log(`i like to drink ${age<=18 ? 'wine' : 'juice'}`);
