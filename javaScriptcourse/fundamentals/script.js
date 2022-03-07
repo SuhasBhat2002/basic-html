@@ -5,8 +5,16 @@
 //logic
 //const if = csoivns doesnt work because it is used in 'if' statement
 
+function cutfruitpeice(fruit){
+return fruit*4;
+}
+
+
 function fruitProcessor(appels,oranges){
-    const juice = `the juice is made up of ${appels} appels and ${oranges} oranges`
+    const applepieces = cutfruitpeice(appels);
+    const orangepieces = cutfruitpeice(oranges);
+
+    const juice = `the juice is made up of ${applepieces} appel peices and ${orangepieces} orange peices`
 return juice;
 }
 console.log(fruitProcessor(10,6));
@@ -25,6 +33,6 @@ const calcage2 = birthYear=> 1985 - birthYear;
 const age3 = calcage2(1940)
 console.log (age3);
 
-const calcage2 = birthYear=> 1981 - birthYear;
+const calcage6 = birthYear=> 1981 - birthYear;
 //lets try
 console.log (calcage2);
