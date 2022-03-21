@@ -18,3 +18,4 @@ const tillRetirement2 = function (birthyear,firstname) {
 }
 
 console.log(tillRetirement2(1991,'derrick'))
+console.log(tillRetirement2(5366,'Alton's)) 
