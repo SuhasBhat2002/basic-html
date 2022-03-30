@@ -5,9 +5,14 @@ const scoreDolphins = calcAverage(44,23,71);
 const scoreKolas = calcAverage(65,54,49);
 console.log(scoreDolphins,scoreKolas);
 
-if(scoreDolphins>scoreKolas){
+if(scoreDolphins>= 2*scoreKolas){
     console.log("dolpins are the winner")
 }
-else{
+
+
+else if(scoreKolas >= 2*scoreDolphins){
     console.log("kolas are the winner")
+}
+else{
+    console.log("nobody wins")
 }
