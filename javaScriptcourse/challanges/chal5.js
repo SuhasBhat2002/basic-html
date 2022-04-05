@@ -8,11 +8,10 @@ const calcTip = function(bill){
 }
 
 
-const bill = [125,555,44];
+const bills = [125,555,44];
 
-const t1 = console.log(calcTip(bill[0]));
-const t2 = console.log(calcTip(bill[1]));
-const t3 = console.log(calcTip(bill[2]));
 
-const toatalTip = [t1,t2,t3];
-console.log(toatalTip)
+const Tip = [calcTip(bills[0]),calcTip(bills[1]),calcTip(bills[2])];
+
+console.log(Tip);
+
